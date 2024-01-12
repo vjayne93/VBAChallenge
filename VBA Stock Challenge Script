@@ -68,7 +68,7 @@ Lastrow = MainWs.Cells(Rows.Count, 1).End(xlUp).Row
 
 'Find the values of the dimensions we set in the last step. Determine the opening price, the ticker names, closing price, yearly change, and total stock volume from the information provided in the worksheet.
 
-Open_Price = MainWs.Cells(i, 3).Value
+Open_Price = MainWs.Cells(2, 3).Value
 
 For i = 2 To Lastrow
 
